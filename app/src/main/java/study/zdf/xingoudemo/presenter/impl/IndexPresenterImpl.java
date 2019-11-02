@@ -25,7 +25,7 @@ import study.zdf.xingoudemo.view.indexFragmentView;
  * @date :2019/11/2 12:12
  */
 public class IndexPresenterImpl implements IndexPresenterInterf {
-    private final String path = "http://39.96.187.58:8080/test.json";
+    private final String path = "http://39.96.187.58:8080/xingou_info.json";
     private indexFragmentView view;
 
     public IndexPresenterImpl(indexFragmentView view) {

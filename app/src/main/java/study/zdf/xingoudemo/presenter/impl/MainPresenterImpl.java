@@ -24,7 +24,7 @@ import study.zdf.xingoudemo.view.mainView;
  * @date :2019/11/2 10:45
  */
 public class MainPresenterImpl implements MainPresenterInterf {
-    private final String path = "http://api.tianapi.com/channellist/?key=41b84a45832608dcc58a41d331bfc39f";
+    private final String path = "http://39.96.187.58:8080/xingou_tab.json";
     private mainView view;
     public MainPresenterImpl(mainView view) {
         this.view = view;
